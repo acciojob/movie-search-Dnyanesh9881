@@ -4,8 +4,13 @@ const Movie=({data})=>{
   console.log(data);
     return(
         <div>
-          <h2>{data.Title}</h2>
-          <img src={data.Poster} />
+          <ul>
+             <li>
+             <h2>{data.Title}</h2>
+            <img src={data.Poster} />
+             </li>
+          </ul>
+         
         </div>
     )
 }
